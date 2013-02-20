@@ -167,7 +167,7 @@
     self.settings = delegate.settings;
 
     // And the start folder/page.
-    self.wwwFolderName = @"www";
+    self.wwwFolderName = @"assets/www";
     self.startPage = [delegate getStartPage];
 
     // Initialize the plugin objects dict.
